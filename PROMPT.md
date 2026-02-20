@@ -388,7 +388,7 @@ minions-notes/
 
 **BEYOND STANDARD PATTERN**
 
-These utilities and classes are specific to `minions-notes`:
+These utilities and classes are specific to `@minions-notes/sdk`:
 
 **NoteGraph**
 - Traverses `references` relations to build and query knowledge graphs
@@ -649,7 +649,7 @@ Include working examples for:
 
 **Agent Knowledge Base** (TypeScript)
 ```typescript
-import { NoteGraph, NoteSearch, DailyNoteScaffolder } from 'minions-notes';
+import { NoteGraph, NoteSearch, DailyNoteScaffolder } from '@minions-notes/sdk';
 
 // Agent stores observations in daily note
 const scaffolder = new DailyNoteScaffolder();
@@ -688,7 +688,7 @@ for cluster in clusters:
 
 **Daily Notes Workflow** (TypeScript)
 ```typescript
-import { DailyNoteScaffolder, NoteRenderer } from 'minions-notes';
+import { DailyNoteScaffolder, NoteRenderer } from '@minions-notes/sdk';
 
 // Get today's note with template
 const scaffolder = new DailyNoteScaffolder({
