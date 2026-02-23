@@ -1,6 +1,6 @@
 {
   "name": "@minions-notes/cli",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "CLI for minions-notes — Freeform annotations and observations attachable to any Minion",
   "license": "MIT",
   "repository": {
